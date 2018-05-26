@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	#im{
+		background-image:url(images.png);
+		background-position:bottom;
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-color:#ff5500;
+	}
+	.class{
+		display:inline-block;
+		    width:20%;
+		    height: 20%;
+		    margin: 10px;
+		    border: 3px solid green;
+			 
+	}
+	
+	.class1{
+		display: inline-block;
+		    width: 20%;
+		    height: 20%;
+		    margin: 10px;
+		    border: 3px solid green; 
+		
+	}
+
+	
+	
+	</style>
+<body id="im">
+	<h1 style="text-align:center">Car Pooler</h1>
+	<hr>
+	<div class="class">
+		<h3>EXISTING USER</h3>
+		<hr>
+		<form>
+			Email:<br>
+			<input type="email" name="email" placeholder="Email Address"><br>
+			Password:<br>
+			<input type="password" name="pass" placeholder="Password"><br>
+			<input type="submit" value="Login" name="login">
+		</form>
+	</div>
+	
+	<div class="class1">
+		<h3>NEW USER</h3>
+		<hr>
+		<form>
+			First Name:<br>
+			<input type ="text" name="fname" placeholder="First Name"><br>
+			Last Name:<br>
+			<input type ="text" name="lname" placeholder="Last Name"><br>
+			Email:<br>
+			<input type="email" name="Nemail" placeholder="Email Address"><br>
+			Phone Number:<br>
+			<input type="text" name="unum" placeholder="Phone Number"><br>
+			 <input type="submit" value="Create" name="create">
+		</form>
+</div>
+</body>
+</html>	
